@@ -1,5 +1,7 @@
 # playwright-qa-toolkit
 
+<img src="assets/logo.svg" alt="playwright-qa-toolkit logo" width="320" />
+
 A portable Playwright QA framework: a pre-built set of standard ecom Page Objects (login,
 registration, listing, product, cart, checkout, account, data layer) and the cross-page journeys
 that compose them, test/accessibility/performance reporting, and a set of QA workflow agents
@@ -11,6 +13,9 @@ new project means swapping `data-testid` selectors and brand copy, not rewriting
 
 This repo is a public overview only. **The working toolkit (code, Page Objects, agents, scripts)
 lives in a private repository.** See "Request access" below.
+
+Used across production fashion/e-commerce QA projects — client names withheld here by design;
+ask for references on request.
 
 ## The strategy
 
@@ -54,6 +59,13 @@ flowchart TD
   Copilot and Claude Code formats
 - A one-command setup script that fills in every project-specific placeholder across the whole
   toolkit in one pass
+
+## In action
+
+<img src="assets/terminal-run.png" alt="instantiate-toolkit.mjs filling every project placeholder in one command" width="640" />
+
+The one-command setup script above fills every `{{PLACEHOLDER}}` across agents, conventions,
+knowledge files, and config in one pass — no manual per-file editing.
 
 ## Request access
 
