@@ -67,6 +67,22 @@ flowchart TD
 The one-command setup script above fills every `{{PLACEHOLDER}}` across agents, conventions,
 knowledge files, and config in one pass — no manual per-file editing.
 
+### Logger
+
+<img src="assets/logger-output.png" alt="Log utility colour-coded output" width="640" />
+
+One shared `Log` utility used everywhere instead of raw `console.log` — colour-coded by level
+(section headers, key/value pairs, navigation, ok/warn/fail) so a failing run is scannable at a
+glance, and quiet in CI when `LOG_LEVEL=silent` is set.
+
+### Reporter
+
+<img src="assets/reporter-summary.png" alt="Consolidated test run summary with pass/fail counts and per-project breakdown" width="640" />
+
+A consolidated run summary — total/passed/failed/skipped/interrupted counts and pass rate up
+top, then a per-project (desktop/mobile × environment) breakdown below — instead of scrolling
+through raw Playwright output to figure out what actually happened.
+
 ## Request access
 
 The working repository is private. To get access, contact **Sherif Opeloyeru** directly.
