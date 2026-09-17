@@ -14,8 +14,8 @@ new project means swapping `data-testid` selectors and brand copy, not rewriting
 This repo is a public overview only. **The working toolkit (code, Page Objects, agents, scripts)
 lives in a private repository.** See "Request access" below.
 
-Used across production fashion/e-commerce QA projects — client names withheld here by design;
-ask for references on request.
+Used in production QA automation for Whistles, Noble Panacea, and Harvey Nichols — mentioned here
+by name only, no logos or branding reproduced.
 
 ## The strategy
 
